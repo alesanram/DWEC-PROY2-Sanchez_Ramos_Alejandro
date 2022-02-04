@@ -1,0 +1,39 @@
+
+/* Active tab */
+.me-auto >.nav-link.active {
+    background-color:transparent !important;
+    border-bottom:1px solid rgba(var(--bs-success-rgb),var(--bs-bg-opacity))!important;
+}
+.me-auto >.nav-link.active:hover {
+    border-bottom:1px solid rgba(var(--bs-success-rgb),var(--bs-bg-opacity))!important;
+}
+
+/* Desactive tab */
+.me-auto > .nav-link{
+    background-color:transparent !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    
+}
+.me-auto > .nav-link:hover{
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+@media (max-width: 992px){
+    .me-auto > .nav-link:hover{
+        border-bottom: 1px solid #dee2e6 !important;
+        border-top-left-radius:0 !important;
+        border-top-right-radius:0 !important;
+        
+    }
+    .me-auto{
+        border: none !important;
+    }
+    .me-auto > .nav-link{
+        background-color:transparent !important;
+        border-bottom:none !important;
+    }
+    .me-auto >.nav-link.active {
+        background-color:transparent !important;
+        border: 1px solid #dee2e6 !important;
+    }
+}
