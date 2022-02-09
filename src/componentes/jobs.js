@@ -1,25 +1,24 @@
-import React, { useState } from "react";
-import bootstrap from "bootstrap";
-const inicialJob=[
-    {
-        name: 'Renge',
-        type: 'Anime/Manga api page',
-        enlace: 'Hoal',
-    }
-]
+import React from "react";
+import {Row,Col,Card} from 'react-bootstrap';
+
 let Jobs=()=>{
-    let [job,setJob]=useState(inicialJob);
     return(
-        <ol>
-            {job.map(({name,type,enlace}, i)=>(
-                <li key={i}>
-                    <a href={enlace}>{name}</a>
-                    <ul>
-                        <li>tipo: {type}</li>
-                    </ul>
-                </li>
+        <Row xs={1} md={2} className="g-4">
+            {Array.from({ length: 4 }).map((_, idx) => (
+                <Col>
+                <Card>
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                        This is a longer card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit longer.
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+                </Col>
             ))}
-        </ol>
+        </Row>
     )
 }
 export default Jobs;
