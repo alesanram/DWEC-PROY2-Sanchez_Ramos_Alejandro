@@ -5,7 +5,7 @@ import '../index.css';
 
 let Footer=()=>{
     return(
-        <Navbar bg="success" expand="lg" variant="dark" fixed="bottom" >
+        <Navbar bg="success" expand="lg" variant="dark" >
             <Container>
                 
             </Container>
