@@ -4,8 +4,11 @@ import mortalParkour from '../img/MortalParkourLogo.png';
 import renge from '../img/logo.png';
 import porfolio from '../img/porfolio.png';
 let Porfolio=()=>{
+    /*Es un grupo de cartas creado con boostrap que representa tres proyectos mios, 
+    las cartan estan fromados por una imagen del proyyecto su nombre y una brebe descripcion, 
+    con un elcae a su repositorio en github*/
     return(
-        <CardGroup className="espacio job">
+        <CardGroup id="Porfolio" className="espacio job">
             <Card>
                 <Card.Img variant="top" className="imagenjobs" src={renge} />
                 <Card.Body>

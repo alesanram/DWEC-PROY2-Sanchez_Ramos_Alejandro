@@ -10,8 +10,8 @@ let About=()=>{
             <Carousel.Item>
                 <img className="d-block w-100" src={img} alt="Foto de Peter Olexa en Pexels"/>
                 <Carousel.Caption className="about__text">
-                <h1>Hi, soy alejandro</h1>
-                <p>Tengo 21 años y soy desarrollador web</p>
+                <h1>Hi, soy Alejandro Sanchez Ramos</h1>
+                <h5>Tengo 21 años y soy desarrollador web</h5>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -19,14 +19,11 @@ let About=()=>{
                 <Carousel.Caption className="about__text">
                 <p>
                     Soy una persona que le interesa aprender
-                nuevos conocimientos, me gusta aprender
-                mas frameworks relacionados con las
-                aplicaciones web o mejorar en los que ya
-                conozco.
-                Además me gustaría aprender nuevas
-                tecnologías y métodos respecto el desarrollo
-                web.
-                Lo que mas me gusta del desarrollo web es la
+                nuevos conocimientos, me encanta aprender nuevos lenguajes,
+                framework o librerias para desarrollo web.
+                Además me interesa aprender nuevas
+                tecnologías y métodos respecto a la web.
+                Aunque, lo que mas me gusta del desarrollo web es la
                 parte del frontend con un interés un poco
                 mas fuerte en el diseño de la misma.
                 </p>
@@ -35,7 +32,7 @@ let About=()=>{
             <Carousel.Item>
                 <img className="d-block w-100" src={img} alt="Foto de Peter Olexa en Pexels"/>
                 <Carousel.Caption className="about__text">
-                <p>De momento los lenguajes y frameworks que conosco son estos<br></br> <br></br>
+                <p>De momento los lenguajes.libreiras y frameworks que conosco son estos<br></br> <br></br>
                         HTML,CSS,JavaScript <br></br> <br></br>
                         PHP,Python,Java, MYSQL <br></br> <br></br>
                         Larabel, flask y React

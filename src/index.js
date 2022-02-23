@@ -15,8 +15,8 @@ ReactDOM.render(
     <Header/>
     <Utility/>  
     <About/>
-    <Academics/>
     <Porfolio/>
+    <Academics/>
     <Recuperacion/>
     <Footer/>
   </div>

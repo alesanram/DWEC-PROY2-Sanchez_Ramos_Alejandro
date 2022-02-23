@@ -5,7 +5,7 @@ import Reloj from './reloj';
 let Utility=()=>{
     //Componente donde se montan un reloj y un juego 
     return(
-        <div id="Utylitis" className="utility">
+        <div id="Utylity" className="utility">
             <Reloj/>
             <Topo/>
         </div>
