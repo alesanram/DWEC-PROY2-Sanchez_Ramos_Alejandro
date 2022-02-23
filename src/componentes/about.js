@@ -4,7 +4,8 @@ import img from  "../img/fondo_about.png"
 
 let About=()=>{
     return(
-        //Carrusel creado de con boostrap utilizando la variante React-Boostrapt
+        /*Carrusel creado de con boostrap utilizando la variante React-Boostrapt,
+        se divide en tres slider sinedoel primero un saludo, el segundo una descripcion de mi y el tercero una lista de lenguajes que conocsco*/
         <Carousel className="about" id="About">
             <Carousel.Item>
                 <img className="d-block w-100" src={img} alt="Foto de Peter Olexa en Pexels"/>
