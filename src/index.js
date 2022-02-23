@@ -2,13 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from "./componentes/header"
 import Footer from './componentes/footer';
-import AboutMe from './componentes/about_me';
+import About from './componentes/about';
+import Jobs from './componentes/jobs';
+import Topo from './componentes/topo';
+import Academics from './componentes/academics';
+import Recuperacion from './componentes/ud1_recuperacion';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <div>
+  <div className='contenedor'>
     <Header/>
-    <AboutMe/>
+    <Topo/>
+    <About/>
+    <Academics/>
+    <Jobs/>
+    <Recuperacion/>
     <Footer/>
   </div>
 ,document.getElementById('root'));
