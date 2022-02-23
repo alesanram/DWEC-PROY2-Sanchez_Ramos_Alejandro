@@ -105,10 +105,44 @@ th{
 .oculto{
     display: none;
 }
-h3{
+h3,h4,p{
     color: aliceblue;
 }
-
+.black{
+    color: black;
+}
+q {
+    font-style: italic;
+}
 .espacio{
     margin: 10vh 0;
+}
+.job{
+    width: 80%;
+    margin-left: 10%;
+}
+.articulo{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.imagenjobs{
+    height: 50%;
+    object-fit: contain;
+}
+.footer{
+    width: 80%;
+    margin-left: 10%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
 }
