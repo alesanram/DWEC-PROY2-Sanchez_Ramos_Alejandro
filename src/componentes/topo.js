@@ -78,7 +78,7 @@ let Topo=()=>{
         return filas;
     }
     return(
-        <div className="divgame" id="Utylitis">
+        <div className="divgame" >
             {/* Este es el titulo del juego, con dos eventos de raton que hacen que se muestre el mensaje explicando el juego solo 
             cuando el raton este sobre el titulo*/}
             <h1 className="titulo" onMouseOver={(e)=>{
@@ -88,7 +88,7 @@ let Topo=()=>{
                     let mensaje= document.getElementById("mensaje_juego");
                     mensaje.classList.add("oculto")}}
                 >Cash the yellow</h1>
-            <p id="mensaje_juego" className="mensaje">El juego consiste en clikear en el boton amarillo
+            <p id="mensaje_juego" className="mensaje oculto">El juego consiste en clikear en el boton amarillo
                 para sumar puntos cunado lleges a cierta puntacion el jeugo aumentara la velocidad
             </p>
             {/*Tabla creada con Boostrap donde se imprime en el thead la puntacion del jugador 

@@ -64,9 +64,12 @@ body,html,.contenedor {
         border: 1px solid #dee2e6 !important;
     }
 }
-.divgame{
+.utility{
     margin-top: 20vh;
     color:whitesmoke;
+}
+.utility>h5{
+    margin-left: 10%;
 }
 .divgame>h1{
     margin-left: 40%;
@@ -104,4 +107,8 @@ th{
 }
 h3{
     color: aliceblue;
+}
+
+.espacio{
+    margin: 10vh 0;
 }

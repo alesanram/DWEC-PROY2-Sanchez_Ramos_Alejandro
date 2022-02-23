@@ -14,7 +14,7 @@ let Recuperacion=()=>{
         }
     }, false);
     return(
-        <div id="Recuperacion">
+        <div id="Recuperacion" className="espacio">
             <h3>Presiona R para ver el articulo o G para volver al juego</h3>
             <div id="articulo" className="oculto">
                 <h3>Pulse N para cerrar el articulo</h3>
