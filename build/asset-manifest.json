@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/css/main.bce4d374.css",
+    "main.js": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/js/main.f5d01ee5.js",
+    "static/media/fondo_about.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/fondo_about.baa3bf575d007fd169a0.png",
+    "index.html": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/index.html",
+    "main.bce4d374.css.map": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/css/main.bce4d374.css.map",
+    "main.f5d01ee5.js.map": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/js/main.f5d01ee5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bce4d374.css",
+    "static/js/main.f5d01ee5.js"
+  ]
+}
