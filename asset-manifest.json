@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/css/main.f929c53a.css",
+    "main.js": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/js/main.c6e966d1.js",
+    "static/media/fondo_about.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/fondo_about.baa3bf575d007fd169a0.png",
+    "static/media/porfolio.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/porfolio.08481e7f921422543c46.png",
+    "static/media/ide.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/ide.80d7b401cdf4793ba4f5.png",
+    "static/media/framework.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/framework.c7ac2630785da136a965.png",
+    "static/media/libreia.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/libreia.07b28a1d2b22f12b5329.png",
+    "static/media/MortalParkourLogo.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/MortalParkourLogo.d9586217a266ec81f434.png",
+    "static/media/logo.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/logo.f8ec15ece7710d03fb6f.png",
+    "static/media/Kubernetes.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/Kubernetes.f2e4a98d0917eeac4762.png",
+    "static/media/nav.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/nav.4a308e34209ab95e4c3b.png",
+    "static/media/Cliente-Servidor.png": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/media/Cliente-Servidor.d86a4e5867e79fdb33a2.png",
+    "index.html": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/index.html",
+    "main.f929c53a.css.map": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/css/main.f929c53a.css.map",
+    "main.c6e966d1.js.map": "/DWEC-PROY2-Sanchez_Ramos_Alejandro/static/js/main.c6e966d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f929c53a.css",
+    "static/js/main.c6e966d1.js"
+  ]
+}
