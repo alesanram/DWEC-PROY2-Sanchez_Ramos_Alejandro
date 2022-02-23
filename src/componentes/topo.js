@@ -49,12 +49,13 @@ let Topo=()=>{
         if(score>50){
             speed=500
         }
-        //Intrbalo que modifica el estado rejilla cada x tiempo
+        //Interbalo que modifica el estado rejilla cada x tiempo
         const interval = setInterval(() => setRejilla(tablero()), speed);
         return () => {
             clearInterval(interval);
         };
     });
+
     /*Funcion que devuelve el tablero a su estado original 
     y luego pinta un boton de amarillo dandole boo como true*/
     function tablero(){
@@ -63,6 +64,7 @@ let Topo=()=>{
         tablero[random]=<Cuadrado boo={true}/>
         return tablero;
     }
+    
     //Funcion que imprime el tablero del juego en filas de 6 por 6
     function render(){
         let number=[5,11,17,23,29,35]
